@@ -10,4 +10,4 @@ It's not the most elegant solution, as it logs in and out every time, but this w
 
     $ python simplisafe.py --username YOUR_USERNAME --password YOUR_PASSWORD --state DESIRED_ALARM_STATE --debug
 
-Alarm state can be *Off*, *Home*, or *Away*. (case-sensitive)
+Alarm state can be *off*, *home*, or *away*.
