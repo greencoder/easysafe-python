@@ -183,7 +183,7 @@ if __name__ == "__main__":
 
     s.login(args['username'], args['password'])
     s.get_location()
-    s.set_state(state)
+    s.set_state(args['state'])
     
     print "System State: %s" % s.get_state()
     s.logout()
